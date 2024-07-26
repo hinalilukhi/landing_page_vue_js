@@ -5,8 +5,8 @@
       :key="index" 
       class="bg-white p-4 rounded shadow mb-2 flex justify-between items-center"
     >
-      <span>{{ link }}</span>
-      <button @click="copyToClipboard(link)" class="bg-blue-500 text-white p-2 rounded">
+      <span class="font-poppins text-body">{{ link }}</span>
+      <button @click="copyToClipboard(link)" class="bg-cyan text-white p-2 rounded">
         Copy
       </button>
     </div>
