@@ -1,11 +1,10 @@
 <template>
   <div class="min-h-screen bg-gray-100">
-    <Header />
     <main class="container mx-auto p-4">
       <InputForm />
       <LinkList />
     </main>
-    <Footer />
+    <AppFooter />
   </div>
 </template>
 
@@ -13,13 +12,13 @@
 
 import InputForm from './components/InputForm.vue'
 import LinkList from './components/LinkList.vue'
-import Footer from './components/Footer.vue'
+import AppFooter from './components/AppFooter.vue'
 
 export default {
   components: {
     InputForm,
     LinkList,
-    Footer
+    AppFooter
   }
 }
 </script>
