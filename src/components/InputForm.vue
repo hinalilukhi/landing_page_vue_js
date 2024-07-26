@@ -7,7 +7,7 @@
         placeholder="Enter URL" 
         class="p-2 border rounded mb-2 md:mb-0 md:mr-2 flex-1"
       />
-      <button class="bg-cyan text-white p-2 rounded" type="submit">
+      <button class="bg-cyan text-white p-2 rounded w-full md:w-auto" type="submit">
         Submit
       </button>
       <p v-if="error" class="text-red mt-2 md:mt-0 md:ml-2">{{ error }}</p>
