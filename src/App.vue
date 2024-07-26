@@ -13,11 +13,13 @@
 
 import InputForm from './components/InputForm.vue'
 import LinkList from './components/LinkList.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   components: {
     InputForm,
     LinkList,
+    Footer
   }
 }
 </script>
