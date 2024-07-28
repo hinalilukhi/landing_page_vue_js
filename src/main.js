@@ -1,10 +1,12 @@
-import Vue from 'vue'
-import App from './App.vue'
-import './assets/tailwind.css'
-import '@fortawesome/fontawesome-free/css/all.css'
+import { createApp } from 'vue';
+import App from './App.vue';
+import store from './store';
 
-Vue.config.productionTip = false
+// Create the Vue app instance
+const app = createApp(App);
 
-new Vue({
-  render: h => h(App),
-}).$mount('#app')
+// Use router and store if applicable
+app.use(store);
+
+// Mount the app to the DOM
+app.mount('#app');
